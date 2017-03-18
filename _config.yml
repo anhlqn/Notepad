@@ -1,7 +1,7 @@
-title:            Notepad
-description:      "Blogging is fun"
+title:            syad.me
+description:      "Hello World"
 logo:             logo3.png
-disqus_shortname: hmfaysal
+# disqus_shortname: anhlqn
 share:            true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
@@ -10,16 +10,16 @@ share:            true
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Anh Le
   avatar:         hmfaysal.jpg
-  email:          you@email.com
+  email:          anhlqn@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Awesome Dude, Awesome Life
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        hmfaysal
-  facebook:       hmfaysal
-  github:         hmfaysal      
-  instagram:      hmfaysal
+  twitter:        anhlqn
+  facebook:       anhlqn
+  github:         anhlqn      
+  instagram:      anhlqn
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    https://plus.google.com/u/0/102602916593522619858
 
@@ -44,7 +44,7 @@ links:
     url: /hossain-mohd-faysal
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    America/Los_Angeles
 future:      true
 highlighter: rouge
 markdown:    kramdown
@@ -59,19 +59,19 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+  syntax_highlighter_opts:
+    line_numbers: 
+    line_numbers_start: 1
+    tab_width: 4
+    bold_every: 10
+    css: class
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://hmfaysal.github.io/'
-  relativeLinks: 'http://hmfaysal.github.io/links.jsonp'
+  siteurl: 'http://anhlqn.github.io/'
+  relativeLinks: 'http://anhlqn.github.io/links.jsonp'
   media: 'images'
   metadata:
     _posts:
